@@ -1,0 +1,31 @@
+body, html {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #15452a;
+  color: #fff;
+  background-image: url('dark.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 30rem 30rem;
+}
+button {
+  cursor: pointer;
+  padding: 0.75rem 10%;
+  border: none;
+  border-radius: 5rem;
+  background-color: #beb9a6;
+  color: #000000;
+}
+button:hover {
+  background-color: #aba799;
+}
+#light-mode-toggle {
+  padding: 0.75rem 1.5rem;
+}
+header {
+  background-color: #15452a;
+}

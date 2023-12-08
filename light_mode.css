@@ -1,0 +1,33 @@
+body, html {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #b7b29d;
+  background-image: url('light.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 50em 30rem;
+}
+button {
+  cursor: pointer;
+  padding: 0.75rem 10%;
+  border: none;
+  border-radius: 5rem;
+  background-color: #6db370;
+  color: #000000;
+}
+button:hover {
+  background-color: #6db370e8;
+}
+#dark-mode-toggle {
+  padding: 0.75rem 1.5rem;
+}
+.title {
+  color: #000000;
+}
+header {
+  background-color: #b7b29d;
+}
